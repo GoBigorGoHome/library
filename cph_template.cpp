@@ -9,7 +9,7 @@ using namespace std;
 #ifdef LOCAL
 #include "debug.h"
 #else
-#define debug(...) 42
+#define debug(...) void(0)
 #endif
 
 int main() {
